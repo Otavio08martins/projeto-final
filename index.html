@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Portfólio-Otavio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="navbar">
+        <h3 class="logo">Otavio-Martins</h3>
+        <button id="hamburguer">☰</button>
+        <ul class="menu" id= "menu">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#contato">Contatos</a></li>
+        </ul>
+      </nav>
+      <div class="hero-container">
+        <p class="intro">Olá, eu sou</p>
+        <h2>Estudante Desenvolvedor FrontEnd e ADS</h2>
+        <p class="descricao">
+          Onde ideias se transformam em experiências digitais através do código.
+        </p>
+      </div>
+    </header>
+    <section id="sobre">
+      <h2>Sobre Mim</h2>
+      <div class="sobre-texto">
+        <p>
+          Sou estudante de programação, focado em desenvolvimento web e sempre
+          buscando evoluir minhas habilidades. Tenho interesse em criar soluções
+          práticas, aprender novas tecnologias e transformar ideias em projetos
+          funcionais.
+        </p>
+        <p>
+          Atuo no desenvolvimento de projetos de programação e desenvolvimento
+          web, utilizando HTML, CSS e JavaScript para criar interfaces digitais.
+          Também estudo a linguagem C, onde estou desenvolvendo projetos
+          acadêmicos como um sistema inspirado no jogo Super Trunfo, focado em
+          lógica de programação e manipulação de dados.
+        </p>
+      </div>
+    </section>
+    <section id="projetos">
+      <h2>Meus projetos</h2>
+      <div class="projetos-container">
+        <div class="projetos-card">
+          <img
+            src="./assets/WhatsApp Image 2026-03-11 at 19.22.56.jpeg"
+            alt="Imagem meu primeiro projeto"
+          />
+          <h2>Portfólio profissional</h2>
+          <p>
+            Este portfólio reúne alguns dos projetos que venho desenvolvendo
+            durante meus estudos em programação e desenvolvimento web,
+            demonstrando minhas habilidades e evolução na área de tecnologia.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="habilidades">
+      <h2>Habilidades técnicas</h2>
+      <p>
+        Como estudante de programação, venho desenvolvendo habilidades em
+        desenvolvimento web utilizando HTML, CSS e JavaScript, além de estudar
+        lógica de programação com a linguagem C. Busco constantemente aprender
+        novas tecnologias e aprimorar meus conhecimentos através de projetos
+        práticos.
+      </p>
+      <div class="habilidades-lista">
+        <div class="habilidades-card">
+          <h3>HTML</h3>
+          <span>Iniciante</span>
+        </div>
+        <div class="habilidades-card">
+          <h3>CSS</h3>
+          <span>Iniciante</span>
+        </div>
+        <div class="habilidades-card">
+          <h3>JavaScript</h3>
+          <span>Iniciante</span>
+        </div>
+      </div>
+    </section>
+    <section id="contato">
+      <h2>Entre em contado</h2>
+      <p>Tem uma ideia ou projeto em mente? Entre em contato comigo.</p>
+      <div class="contatos-lista">
+        <div class="contato-item">
+          <strong>Email</strong>
+          <span>programacaotavio@hotmail.com</span>
+        </div>
+        <div class="contatos-lista">
+          <div class="contato-item">
+            <strong>WhatsApp</strong>
+
+            <a href="https://wa.me/5548988181827?text=oi%20Otávio,%20gostaria%20de%20um%20projeto.">(48)98818-1827</a>
+          </div>
+          <div class="contatos-lista">
+            <div class="contato-item">
+              <strong>Localização</strong>
+              <span>Florianópolis - SC</span>
+            </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>© 2026 Otávio Martins. Todos os direitos reservados.</p>
+    </footer>
+    <script>
+      let button = document.getElementById("hamburguer");
+      const menu = document.getElementById("menu");
+
+      button.addEventListener("click", function () {
+        menu.classLint.toggle("ativa");
+      });
+    </script>
+  </body>
+</html>
